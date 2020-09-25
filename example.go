@@ -36,5 +36,7 @@ func randomFormat() string {
 	// Return a randomly selected message format by specifying
 	// a random index for the slice of formats.
 	println(rand.Intn(3))
+	println("fight me")
+
 	return formats[rand.Intn(len(formats))]
 }
